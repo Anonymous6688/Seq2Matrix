@@ -1,0 +1,18 @@
+// The Round Table
+digraph {
+	graph [rankdir=LR]
+	label="Regime-switching of MRO series" labelloc=top
+	a [label=R4]
+	b [label=R4]
+	c [label=R1]
+	d [label=R1]
+	e [label=R1]
+	f [label=R5]
+	g [label=R1 color=red fontcolor=red]
+	a -> b
+	b -> c
+	c -> d
+	d -> e
+	e -> f
+	f -> g
+}

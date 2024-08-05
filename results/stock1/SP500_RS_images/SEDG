@@ -1,0 +1,18 @@
+// The Round Table
+digraph {
+	graph [rankdir=LR]
+	label="Regime-switching of SEDG series" labelloc=top
+	a [label=R3]
+	b [label=R3]
+	c [label=R1]
+	d [label=R1]
+	e [label=R1]
+	f [label=R2]
+	g [label=R1 color=red fontcolor=red]
+	a -> b
+	b -> c
+	c -> d
+	d -> e
+	e -> f
+	f -> g
+}

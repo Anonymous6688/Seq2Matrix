@@ -1,0 +1,18 @@
+// The Round Table
+digraph {
+	graph [rankdir=LR]
+	label="Regime-switching of TRMB series" labelloc=top
+	a [label=R4]
+	b [label=R1]
+	c [label=R4]
+	d [label=R4]
+	e [label=R4]
+	f [label=R2]
+	g [label=R4 color=red fontcolor=red]
+	a -> b
+	b -> c
+	c -> d
+	d -> e
+	e -> f
+	f -> g
+}

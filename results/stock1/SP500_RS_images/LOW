@@ -1,0 +1,18 @@
+// The Round Table
+digraph {
+	graph [rankdir=LR]
+	label="Regime-switching of LOW series" labelloc=top
+	a [label=R4]
+	b [label=R4]
+	c [label=R4]
+	d [label=R4]
+	e [label=R1]
+	f [label=R2]
+	g [label=R4 color=red fontcolor=red]
+	a -> b
+	b -> c
+	c -> d
+	d -> e
+	e -> f
+	f -> g
+}
